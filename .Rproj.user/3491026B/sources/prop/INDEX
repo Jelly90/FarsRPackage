@@ -10,3 +10,7 @@
 ~%2FCoursera%2FBuilingRPackages%2FfarsR%2Fvignettes%2FREADME.md="549EED2A"
 ~%2FCoursera%2FBuilingRPackages%2FfarsR%2Fvignettes%2FVignette_farsR.Rmd="DDCEC342"
 ~%2FCoursera%2FBuilingRPackages%2Ffars_function.R="191186F6"
+~%2FCoursera%2FFarsRPackage%2FFarsRPackage%2F.travis.yml="63CAFA29"
+~%2FCoursera%2FFarsRPackage%2FFarsRPackage%2Fsetup_package.R="BCE1E0AF"
+~%2FCoursera%2FFarsRPackage%2FFarsRPackage%2Ftests%2Ftestthat%2FtestFunctions.R="627F9C7A"
+~%2FCoursera%2FFarsRPackage%2FFarsRPackage%2Ftests%2Ftestthat.R="8012CE29"
