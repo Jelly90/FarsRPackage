@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1589870120565.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "539353066",
+    "id" : "29F4271C",
+    "lastKnownWriteTime" : 1590088670,
+    "last_content_update" : 1590088670780,
+    "path" : "~/Coursera/BuilingRPackages/farsR/vignettes/Vignette_farsR.Rmd",
+    "project_path" : "vignettes/Vignette_farsR.Rmd",
+    "properties" : {
+        "cursorPosition" : "56,19",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

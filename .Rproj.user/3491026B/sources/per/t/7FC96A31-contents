@@ -1,0 +1,21 @@
+Package: farsR
+Type: Package
+Title: Summarizing and Visualizing FARS data
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: The package uses FARS data and has functions to summarize the
+      data per month or visualize the data of one year of interest on a US map.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: dplyr,
+    maps,
+    readr,
+    tidyr
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+RoxygenNote: 7.1.0

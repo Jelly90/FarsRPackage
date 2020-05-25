@@ -1,0 +1,58 @@
+---
+title: "farsR Package Usage"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette_farsR}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+## Overview
+This vignette summarizes the functions of the farsR Package which was build 
+as an assignment for the Coursera Building R Packages Course.
+
+Functions of the package:
+
+* fars_map_state
+* fars_read
+* fars_read_years
+* fars_summarize_years
+* make_filename
+
+## Load dataset of interest
+To use the package you need to download the 
+[FARS data](http://www.nhtsa.gov/Data/Fatality-Analysis-Reporting-System-(FARS))
+and put the files in your working directory. Then, by giving a year of interest,
+the package summarizes of visualizes the data.
+
+### fars_read(filename)
+Loads the data from a given FARS data file.
+```{r eval=FALSE}
+fars_read("accident_2013.csv.bz2")
+```
+
+### make_filenmae(year)
+Creates the filename for the FARS data file for the year of interest
+```{r eval=FALSE}
+make_filename(2013)
+```
+
+### fars_read_years(years)
+Reads FARS data for multiple years.
+```{r eval=FALSE}
+fars_read_years(2013:2014)
+```
+
+## Summarize FARS data
+### fars_summarize_years(years)
+Summarizes FARS data for each month for the years of interest.
+```{r eval=FALSE}
+fars_summarize_years(2013:2014)
+```
+
+
+## Visualize FARS data
+### fars_map_state(state.num, year)
+Plots all cases of a year or interest to a US map.
+```{r eval=FALSE}
+fars_map_state(45, 2013)
+```

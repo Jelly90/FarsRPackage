@@ -1,0 +1,54 @@
+---
+title: "Building R Package"
+author: "Matt Moramarco"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Overview
+
+This is a packge built to staisfy the requirements for the Building R Packages course on Coursera, part of the Mastering Software Development in R specialization. The specific functions in this package (detailed below) are designed to be used in reading and analyzing data from the Fatality Analysis Reporting System (part of the U.S. Department of Transporation's National Highway Traffic and Safety Administration). Details can be found [here](https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars)
+
+## make_filename()
+
+Generates filenames of the form accident_2014.csv.bz2.
+
+```{r eval=FALSE}
+make_filename(2014)
+```
+
+## fars_read()
+
+Creates a dataframe from the filename specified.
+
+```{r eval=FALSE}
+fars_read("accident_2014.csv.bz2")
+```
+
+## fars_read_years()
+
+Creates a dataframe for the years specified.
+
+```{r eval=FALSE}
+fars_read_years(2013:2014)
+```
+
+## fars_summarize_years()
+
+Summarizes the data for the years specified.
+
+```{r eval=FALSE}
+fars_summarize_years(2013:2014)
+```
+
+## fars_map_state()
+
+Generates a plot for the specified state and year.
+
+```{r eval=FALSE}
+fars_map_state('01',2014)
+```
