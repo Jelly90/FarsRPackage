@@ -1,4 +1,5 @@
 #### test fars_read
+library(testthat)
 
 context("make_filename")
 
